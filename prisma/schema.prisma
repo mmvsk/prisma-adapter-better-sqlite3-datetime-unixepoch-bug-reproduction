@@ -1,0 +1,15 @@
+generator client {
+  provider   = "prisma-client"
+  engineType = "client"
+  output     = "./generated"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Post {
+  id        Int      @id
+  title     String
+  createdAt DateTime @default(now())
+}

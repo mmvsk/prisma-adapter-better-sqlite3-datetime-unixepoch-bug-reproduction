@@ -1,0 +1,37 @@
+{
+  "name": "prisma-adapter-better-sqlite3-datetime-unixepoch-bug-reproduction",
+  "description": "Reproduction of @prisma/adapter-better-sqlite3 DateTime bug with unixepoch-ms format",
+  "version": "0.0.0",
+  "license": "ISC",
+  "author": "Max Ruman",
+  "type": "module",
+  "main": "main.ts",
+  "homepage": "https://github.com/mmvsk/prisma-adapter-better-sqlite3-datetime-unixepoch-bug-reproduction#readme",
+  "bugs": {
+    "url": "https://github.com/mmvsk/prisma-adapter-better-sqlite3-datetime-unixepoch-bug-reproduction/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmvsk/prisma-adapter-better-sqlite3-datetime-unixepoch-bug-reproduction.git"
+  },
+  "keywords": [
+    "prisma",
+    "better-sqlite3"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "test": "npx tsx main.ts"
+  },
+  "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.1.0",
+    "@prisma/client": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "prisma": "^7.1.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.9.3"
+  }
+}
