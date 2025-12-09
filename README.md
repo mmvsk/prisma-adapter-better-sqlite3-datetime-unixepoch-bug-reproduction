@@ -56,4 +56,4 @@ Test: timestampFormat: "unixepoch-ms"
 
 ## Related Issue
 
-https://github.com/prisma/prisma/issues/XXXXX
+https://github.com/prisma/prisma/issues/28890
